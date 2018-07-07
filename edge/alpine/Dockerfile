@@ -1,6 +1,6 @@
 FROM golang:1.10.3-alpine3.7 AS build
 
-ARG MANAEL_REF_SHA1=477e137cdde2bc5293cd15faa82adc714c598e9a
+ARG MANAEL_REF_SHA1=5e3effb361a062ad0f4f21e1a0cf0e61b96bb339
 
 WORKDIR /go/src/manael.org/x/
 
