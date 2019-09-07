@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ARG MANAEL_VERSION=1.2.0
+ARG MANAEL_VERSION=1.2.1
 
 RUN set -ex \
 	&& apk --update-cache add ca-certificates \
